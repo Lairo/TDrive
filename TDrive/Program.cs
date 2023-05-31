@@ -14,11 +14,17 @@ namespace TDrive
             int randomInt = random.Next(0,4);
             Console.WriteLine(randomInt);
 
-            string[] cars = new string[4];
-            cars[0] = "Audi";
-            cars[1] = "BMW";
-            cars[2] = "Ford";
-            cars[3] = "VolksWagen";
+            string[] cars = new string[]
+            {
+              "Audi",
+              "BMW",
+              "Ford",
+              "VolksWagen",
+            };
+            //cars[0] = "Audi";
+            //cars[1] = "BMW";
+            //cars[2] = "Ford";
+            //cars[3] = "VolksWagen";
 
             Console.WriteLine("[{0}]", string.Join(", ", cars));
             Console.WriteLine(cars[randomInt]);
